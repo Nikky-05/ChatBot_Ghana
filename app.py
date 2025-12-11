@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 bot = RAGChatbot()
 
-@app.route('/')
+@app.route('/chat')
 def home():
     return render_template('index.html')
 
