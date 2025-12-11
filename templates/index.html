@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protean Support Assistant - GRA Compliance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="container-fluid main-container">
+        <div class="row justify-content-center h-100">
+            <div class="col-md-10 col-lg-8 col-xl-7 chat-wrapper">
+                <div class="card chat-card">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <div class="logo-container me-3">
+                                <img src="data:image/png;base64,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"
+                                    alt="Protean" class="logo">
+                            </div>
+                            <div>
+                                <h5 class="mb-0 fw-semibold header-title">Protean Support Assistant</h5>
+                                <small class="header-subtitle"><i class="fas fa-circle status-indicator"></i> Online •
+                                    GRA Compliance Help</small>
+                            </div>
+                        </div>
+                        <div class="header-actions">
+                            <button class="btn btn-sm btn-icon" id="theme-btn" title="Change Theme"
+                                data-bs-toggle="modal" data-bs-target="#themeModal">
+                                <i class="fas fa-palette"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card-body chat-body" id="chat-box">
+                        <div class="welcome-message">
+                            <div class="welcome-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <h6 class="welcome-title">Welcome to Protean Support</h6>
+                            <p class="welcome-text">I'm here to assist you with GRA E-commerce compliance questions. How
+                                can I help you today?</p>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <form id="chat-form" class="chat-input-form">
+                            <div class="input-wrapper">
+                                <input type="text" id="user-input" class="form-control chat-input"
+                                    placeholder="Type your question here..." autocomplete="off">
+                                <button type="submit" class="btn btn-primary send-btn">
+                                    <i class="fas fa-paper-plane"></i>
+                                    <span class="btn-text">Send</span>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="footer-info">
+                            <small class="text-muted">Powered by Protean AI • Secure & Confidential</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Theme Switcher Modal -->
+    <div class="modal fade" id="themeModal" tabindex="-1" aria-labelledby="themeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content theme-modal">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-semibold" id="themeModalLabel">
+                        <i class="fas fa-palette me-2"></i>Choose Your Theme
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-muted mb-4">Select a color theme to personalize your experience</p>
+                    <div class="theme-grid">
+                        <!-- Theme 1: Ocean Blue (Default) -->
+                        <div class="theme-option" data-theme="ocean" onclick="changeTheme('ocean')">
+                            <div class="theme-preview"
+                                style="background: linear-gradient(135deg, #2176FF 0%, #1557CC 100%);">
+                                <i class="fas fa-check theme-check"></i>
+                            </div>
+                            <span class="theme-name">Ocean Blue</span>
+                        </div>
+
+                        <!-- Theme 2: Midnight Black -->
+                        <div class="theme-option" data-theme="midnight" onclick="changeTheme('midnight')">
+                            <div class="theme-preview"
+                                style="background: linear-gradient(135deg, #1A1A1A 0%, #000000 100%);">
+                                <i class="fas fa-check theme-check"></i>
+                            </div>
+                            <span class="theme-name">Midnight</span>
+                        </div>
+
+                        <!-- Theme 3: Emerald Green -->
+                        <div class="theme-option" data-theme="emerald" onclick="changeTheme('emerald')">
+                            <div class="theme-preview"
+                                style="background: linear-gradient(135deg, #10B981 0%, #059669 100%);">
+                                <i class="fas fa-check theme-check"></i>
+                            </div>
+                            <span class="theme-name">Emerald</span>
+                        </div>
+
+                        <!-- Theme 4: Royal Purple -->
+                        <div class="theme-option" data-theme="royal" onclick="changeTheme('royal')">
+                            <div class="theme-preview"
+                                style="background: linear-gradient(135deg, #8B5CF6 0%, #6D28D9 100%);">
+                                <i class="fas fa-check theme-check"></i>
+                            </div>
+                            <span class="theme-name">Royal Purple</span>
+                        </div>
+
+                        <!-- Theme 5: Sunset Orange -->
+                        <div class="theme-option" data-theme="sunset" onclick="changeTheme('sunset')">
+                            <div class="theme-preview"
+                                style="background: linear-gradient(135deg, #F97316 0%, #EA580C 100%);">
+                                <i class="fas fa-check theme-check"></i>
+                            </div>
+                            <span class="theme-name">Sunset</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,902 @@
+[
+  {
+    "intent": "Portal_Overview",
+    "questions": [
+      "- What is the GRA e-commerce portal?",
+      "- What is this portal used for?",
+      "Short Answer: The portal enables registration, monitoring, and VAT compliance for e-commerce businesses operating in Ghana."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "Who_Should_Register",
+    "questions": [
+      "- Who must register on the portal?",
+      "- Is registration mandatory for online sellers?",
+      "Short Answer: All resident and non-resident businesses selling goods or services to customers in Ghana must register."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "Resident_Registration",
+    "questions": [
+      "- How do I register as a Ghana-based seller?",
+      "- Resident e-commerce registration process",
+      "Short Answer: Resident sellers can register using their TIN and Ghana Card details through the portal."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "NonResident_Registration",
+    "questions": [
+      "- How do foreign sellers register?",
+      "- Non-resident VAT registration",
+      "Short Answer: Non-resident sellers can register online using passport details and will be issued a temporary TIN."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "TIN_Requirement",
+    "questions": [
+      "- Do I need a TIN?",
+      "- Is TIN mandatory for e-commerce?",
+      "Short Answer: Yes, a TIN is required. Non-resident sellers are issued a temporary TIN during onboarding."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "PSP_Ingestion",
+    "questions": [
+      "- What is PSP data ingestion?",
+      "- Why does GRA collect PSP data?",
+      "Short Answer: PSP ingestion allows GRA to receive transaction data to identify and monitor e-commerce activity."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "PSP_Submission_Frequency",
+    "questions": [
+      "- How often should PSPs submit data?",
+      "- PSP data submission frequency",
+      "Short Answer: PSPs are required to submit transaction data daily or as prescribed by GRA."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "NonResident_Identification",
+    "questions": [
+      "- How does GRA identify foreign sellers?",
+      "- How are non-resident merchants detected?",
+      "Short Answer: GRA uses PSP data, merchant location, payment patterns, and buyer information to identify non-resident sellers."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "VAT_Rate",
+    "questions": [
+      "- What VAT rate applies to e-commerce?",
+      "- VAT percentage in Ghana",
+      "Short Answer: The standard VAT rate applicable to e-commerce transactions in Ghana applies as notified by GRA."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "VAT_Filing",
+    "questions": [
+      "- How do I file VAT returns?",
+      "- VAT filing process",
+      "Short Answer: VAT returns can be filed online through the portal using system-generated transaction data."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_11",
+    "questions": [
+      "- Sample question 11",
+      "- Alternate question 11",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_12",
+    "questions": [
+      "- Sample question 12",
+      "- Alternate question 12",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_13",
+    "questions": [
+      "- Sample question 13",
+      "- Alternate question 13",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_14",
+    "questions": [
+      "- Sample question 14",
+      "- Alternate question 14",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_15",
+    "questions": [
+      "- Sample question 15",
+      "- Alternate question 15",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_16",
+    "questions": [
+      "- Sample question 16",
+      "- Alternate question 16",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_17",
+    "questions": [
+      "- Sample question 17",
+      "- Alternate question 17",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_18",
+    "questions": [
+      "- Sample question 18",
+      "- Alternate question 18",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_19",
+    "questions": [
+      "- Sample question 19",
+      "- Alternate question 19",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_20",
+    "questions": [
+      "- Sample question 20",
+      "- Alternate question 20",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_21",
+    "questions": [
+      "- Sample question 21",
+      "- Alternate question 21",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_22",
+    "questions": [
+      "- Sample question 22",
+      "- Alternate question 22",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_23",
+    "questions": [
+      "- Sample question 23",
+      "- Alternate question 23",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_24",
+    "questions": [
+      "- Sample question 24",
+      "- Alternate question 24",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_25",
+    "questions": [
+      "- Sample question 25",
+      "- Alternate question 25",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_26",
+    "questions": [
+      "- Sample question 26",
+      "- Alternate question 26",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_27",
+    "questions": [
+      "- Sample question 27",
+      "- Alternate question 27",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_28",
+    "questions": [
+      "- Sample question 28",
+      "- Alternate question 28",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_29",
+    "questions": [
+      "- Sample question 29",
+      "- Alternate question 29",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_30",
+    "questions": [
+      "- Sample question 30",
+      "- Alternate question 30",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_31",
+    "questions": [
+      "- Sample question 31",
+      "- Alternate question 31",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_32",
+    "questions": [
+      "- Sample question 32",
+      "- Alternate question 32",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_33",
+    "questions": [
+      "- Sample question 33",
+      "- Alternate question 33",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_34",
+    "questions": [
+      "- Sample question 34",
+      "- Alternate question 34",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_35",
+    "questions": [
+      "- Sample question 35",
+      "- Alternate question 35",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_36",
+    "questions": [
+      "- Sample question 36",
+      "- Alternate question 36",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_37",
+    "questions": [
+      "- Sample question 37",
+      "- Alternate question 37",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_38",
+    "questions": [
+      "- Sample question 38",
+      "- Alternate question 38",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_39",
+    "questions": [
+      "- Sample question 39",
+      "- Alternate question 39",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_40",
+    "questions": [
+      "- Sample question 40",
+      "- Alternate question 40",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_41",
+    "questions": [
+      "- Sample question 41",
+      "- Alternate question 41",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_42",
+    "questions": [
+      "- Sample question 42",
+      "- Alternate question 42",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_43",
+    "questions": [
+      "- Sample question 43",
+      "- Alternate question 43",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_44",
+    "questions": [
+      "- Sample question 44",
+      "- Alternate question 44",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_45",
+    "questions": [
+      "- Sample question 45",
+      "- Alternate question 45",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_46",
+    "questions": [
+      "- Sample question 46",
+      "- Alternate question 46",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_47",
+    "questions": [
+      "- Sample question 47",
+      "- Alternate question 47",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_48",
+    "questions": [
+      "- Sample question 48",
+      "- Alternate question 48",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_49",
+    "questions": [
+      "- Sample question 49",
+      "- Alternate question 49",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_50",
+    "questions": [
+      "- Sample question 50",
+      "- Alternate question 50",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_51",
+    "questions": [
+      "- Sample question 51",
+      "- Alternate question 51",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_52",
+    "questions": [
+      "- Sample question 52",
+      "- Alternate question 52",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_53",
+    "questions": [
+      "- Sample question 53",
+      "- Alternate question 53",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_54",
+    "questions": [
+      "- Sample question 54",
+      "- Alternate question 54",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_55",
+    "questions": [
+      "- Sample question 55",
+      "- Alternate question 55",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_56",
+    "questions": [
+      "- Sample question 56",
+      "- Alternate question 56",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_57",
+    "questions": [
+      "- Sample question 57",
+      "- Alternate question 57",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_58",
+    "questions": [
+      "- Sample question 58",
+      "- Alternate question 58",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_59",
+    "questions": [
+      "- Sample question 59",
+      "- Alternate question 59",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_60",
+    "questions": [
+      "- Sample question 60",
+      "- Alternate question 60",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_61",
+    "questions": [
+      "- Sample question 61",
+      "- Alternate question 61",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_62",
+    "questions": [
+      "- Sample question 62",
+      "- Alternate question 62",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_63",
+    "questions": [
+      "- Sample question 63",
+      "- Alternate question 63",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_64",
+    "questions": [
+      "- Sample question 64",
+      "- Alternate question 64",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_65",
+    "questions": [
+      "- Sample question 65",
+      "- Alternate question 65",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_66",
+    "questions": [
+      "- Sample question 66",
+      "- Alternate question 66",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_67",
+    "questions": [
+      "- Sample question 67",
+      "- Alternate question 67",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_68",
+    "questions": [
+      "- Sample question 68",
+      "- Alternate question 68",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_69",
+    "questions": [
+      "- Sample question 69",
+      "- Alternate question 69",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_70",
+    "questions": [
+      "- Sample question 70",
+      "- Alternate question 70",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_71",
+    "questions": [
+      "- Sample question 71",
+      "- Alternate question 71",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_72",
+    "questions": [
+      "- Sample question 72",
+      "- Alternate question 72",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_73",
+    "questions": [
+      "- Sample question 73",
+      "- Alternate question 73",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_74",
+    "questions": [
+      "- Sample question 74",
+      "- Alternate question 74",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_75",
+    "questions": [
+      "- Sample question 75",
+      "- Alternate question 75",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_76",
+    "questions": [
+      "- Sample question 76",
+      "- Alternate question 76",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_77",
+    "questions": [
+      "- Sample question 77",
+      "- Alternate question 77",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_78",
+    "questions": [
+      "- Sample question 78",
+      "- Alternate question 78",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_79",
+    "questions": [
+      "- Sample question 79",
+      "- Alternate question 79",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_80",
+    "questions": [
+      "- Sample question 80",
+      "- Alternate question 80",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_81",
+    "questions": [
+      "- Sample question 81",
+      "- Alternate question 81",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_82",
+    "questions": [
+      "- Sample question 82",
+      "- Alternate question 82",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_83",
+    "questions": [
+      "- Sample question 83",
+      "- Alternate question 83",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_84",
+    "questions": [
+      "- Sample question 84",
+      "- Alternate question 84",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_85",
+    "questions": [
+      "- Sample question 85",
+      "- Alternate question 85",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_86",
+    "questions": [
+      "- Sample question 86",
+      "- Alternate question 86",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_87",
+    "questions": [
+      "- Sample question 87",
+      "- Alternate question 87",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_88",
+    "questions": [
+      "- Sample question 88",
+      "- Alternate question 88",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_89",
+    "questions": [
+      "- Sample question 89",
+      "- Alternate question 89",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_90",
+    "questions": [
+      "- Sample question 90",
+      "- Alternate question 90",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_91",
+    "questions": [
+      "- Sample question 91",
+      "- Alternate question 91",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_92",
+    "questions": [
+      "- Sample question 92",
+      "- Alternate question 92",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_93",
+    "questions": [
+      "- Sample question 93",
+      "- Alternate question 93",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_94",
+    "questions": [
+      "- Sample question 94",
+      "- Alternate question 94",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_95",
+    "questions": [
+      "- Sample question 95",
+      "- Alternate question 95",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_96",
+    "questions": [
+      "- Sample question 96",
+      "- Alternate question 96",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_97",
+    "questions": [
+      "- Sample question 97",
+      "- Alternate question 97",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_98",
+    "questions": [
+      "- Sample question 98",
+      "- Alternate question 98",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_99",
+    "questions": [
+      "- Sample question 99",
+      "- Alternate question 99",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  },
+  {
+    "intent": "General_FAQ_100",
+    "questions": [
+      "- Sample question 100",
+      "- Alternate question 100",
+      "Short Answer: This information helps users comply with GRA e-commerce regulations."
+    ],
+    "answer": ""
+  }
+]
